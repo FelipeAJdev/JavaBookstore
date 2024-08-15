@@ -1,6 +1,4 @@
-# Let's create a README.md file with the content provided.
 
-readme_content = """
 <div align="center">
   
 # JavaBookStore - API Restful com Spring Boot
