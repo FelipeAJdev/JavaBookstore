@@ -77,13 +77,4 @@
 
 ## 🤝 Agradecimentos
 
-Este projeto foi desenvolvido como parte do aprendizado contínuo em desenvolvimento Java e Spring Boot. A
-"""
-
-# Save this content to a README.md file
-file_path = '/mnt/data/README.md'
-
-with open(file_path, 'w') as file:
-    file.write(readme_content)
-
-file_path
+Este projeto foi desenvolvido como parte do aprendizado contínuo em desenvolvimento Java e Spring Boot.
