@@ -79,7 +79,7 @@ readme_content = """
 
 ## 🤝 Agradecimentos
 
-Este projeto foi desenvolvido como parte do aprendizado contínuo em desenvolvimento Java e Spring Boot. Agradecimentos especiais aos colegas e instrutores que contribuíram para o desenvolvimento e evolução deste projeto.
+Este projeto foi desenvolvido como parte do aprendizado contínuo em desenvolvimento Java e Spring Boot. A
 """
 
 # Save this content to a README.md file
