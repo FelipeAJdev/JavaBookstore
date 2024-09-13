@@ -43,22 +43,23 @@
 ### Passos para Executar
 
 1. Clone o repositório:
-   \`\`\`bash
+   `
    git clone https://github.com/felipemacedo1/spring-bookstore-management.git
-   \`\`\`
-2. Navegue até o diretório do projeto:
-   \`\`\`bash
-   cd javabookstore
-   \`\`\`
-3. Configure o banco de dados no arquivo \`application.properties\` ou \`application.yml\`.
-4. Execute o projeto:
-   \`\`\`bash
+   `
+3. Navegue até o diretório do projeto:
+   `
+   cd spring-bookstore-management
+   `
+  
+5. Configure o banco de dados no arquivo \`application.properties\` ou \`application.yml\`.
+6. Execute o projeto:
+`
    mvn spring-boot:run
-   \`\`\`
-5. Acesse a documentação Swagger em:
-   \`\`\`
+`
+7. Acesse a documentação Swagger em:
+   `
    http://localhost:8080/swagger-ui.html
-   \`\`\`
+   `
 
 ## 🌐 Deploy
 
