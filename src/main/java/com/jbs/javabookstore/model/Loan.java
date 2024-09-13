@@ -1,11 +1,8 @@
 package com.jbs.javabookstore.model;
 
 import java.time.LocalDateTime;
-
 import org.hibernate.annotations.UpdateTimestamp;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -40,8 +37,9 @@ public class Loan {
 	@JsonIgnoreProperties("loans")
 	private User user;
 
+	// Getters e Setters
 	public Long getId() {
-		return this.id;
+		return id;
 	}
 
 	public void setId(Long id) {
@@ -49,7 +47,7 @@ public class Loan {
 	}
 
 	public String getStatus() {
-		return this.status;
+		return status;
 	}
 
 	public void setStatus(String status) {
@@ -57,7 +55,7 @@ public class Loan {
 	}
 
 	public LocalDateTime getLoanDate() {
-		return this.loanDate;
+		return loanDate;
 	}
 
 	public void setLoanDate(LocalDateTime loanDate) {

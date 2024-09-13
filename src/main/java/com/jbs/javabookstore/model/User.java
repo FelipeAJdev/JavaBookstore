@@ -1,9 +1,7 @@
 package com.jbs.javabookstore.model;
 
 import java.util.List;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -40,17 +38,17 @@ public class User {
     @JsonIgnoreProperties("user")
     private List<Loan> loans;
 
-    public User() {
+    // Construtores
+    public User() {}
 
+    public User(long id, String name, String email, String password) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
     }
 
-    public User(long l, String johnDoe, String mail, String password123) {
-    }
-
-    public User(long l, String pauloAntunes, String mail, String number, String s) {
-    }
-
-    // Getters and Setters
+    // Getters e Setters
     public Long getId() {
         return id;
     }
