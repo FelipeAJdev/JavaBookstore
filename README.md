@@ -23,7 +23,7 @@
 ## 📋 Explore a Documentação Swagger
 
 - A documentação fornece informações detalhadas sobre os endpoints, modelos de dados e como interagir com a API.
-- Explore a documentação Swagger para obter uma visão completa da API [aqui](https://github.com/FelipeAJdev/JavaBookstore/).
+- Explore a documentação Swagger para obter uma visão completa da API [aqui](https://github.com/felipemacedo1/JavaBookstore/).
 
 ## 📚 Funcionalidades Principais
 
@@ -44,7 +44,7 @@
 
 1. Clone o repositório:
    \`\`\`bash
-   git clone https://github.com/username/javabookstore.git
+   git clone https://github.com/felipemacedo1/spring-bookstore-management.git
    \`\`\`
 2. Navegue até o diretório do projeto:
    \`\`\`bash
